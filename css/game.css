@@ -1,0 +1,36 @@
+.background    { background-image: url("../img/space_background2.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+p                { font-size: 200%; 
+            color: purple; }
+.background td { padding: 0;          }
+.lava          { background-image: url("../img/lava.jpg"); }
+.wall          { background-image: url("../img/wall_texture.jpg");   }
+.spike        { background-image: url("../img/spikes.png");   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("../img/coin_emoji_2.png"); }
+.player { background-image: url("../img/smiling_face_emoji_character.png"); }
+.enemy { background-image: url("../img/enemy_angry_emoji.png"); }
+.star { background-image: url("../img/rainbow_star.png"); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lostlava .player {
+  background-image: url("../img/emoji_lava_face.png");
+}
+.lostspike .player {
+  background-image: url("../img/emoji_astonished_spike_face.png");
+}
+.lostenemy .player {
+  background-image: url("../img/sad-face-enemy-emoji.png");
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+  background-image: url("../img/halo_win_emoji.png");
+}
